@@ -12,3 +12,6 @@ start chrome --allow-file-access-from-file
 
 On peut alors ouvrir le fichier affichage.html, et lancer le parsing. 
 La recherche est triée par ordre alphabétique des hotels. 
+
+Le fichier getHotels.js est un premier fichier JavaScript, qui permet les noms des hotels de 
+Relais et Chateaux et l'URL associé, mais n'est pas utilisé dans le projet final
