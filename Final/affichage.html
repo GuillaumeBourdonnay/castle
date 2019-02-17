@@ -11,7 +11,7 @@
 <body>
   <div class="container">    
     <div class="table-responsive">
-      <h1 class="display-4">Lecture et parsing du fichier RelaisEtoiles.json</h1>
+      <h1 class="display-4">Lecture et parsing du fichier result.json</h1>
       <button class="btn btn-success btn-lg" id="lecture">Lancer la lecture</button>
       <p><br></p>
       <table class="table table-bordered table-striped table-hover" id="result_table">
@@ -39,7 +39,7 @@
 
     $(document).ready(function() {
      $('#lecture').on('click', function(){
-      $.getJSON("RelaisEtoiles.json", function(result){
+      $.getJSON("result.json", function(result){
         //result = $(result).sort(sortByPrice);
         var items = [];
         //var relais_data = ''; 
